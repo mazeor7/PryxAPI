@@ -1,6 +1,6 @@
 {
   "name": "pryxapi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A powerful and flexible HTTP client for Node.js, designed to simplify API requests with advanced features such as authentication, caching, retry mechanisms, and more.",
   "main": "index.js",
   "scripts": {
