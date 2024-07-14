@@ -6,7 +6,18 @@
   "scripts": {
     "test": "test.js"
   },
-  "keywords": [],
+  "keywords": [
+    "http",
+    "https",
+    "http client",
+    "request",
+    "api",
+    "API",
+    "API client",
+    "authentication",
+    "caching",
+    "logging"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
