@@ -15,8 +15,11 @@ const api = {
   options: (endpoint, headers, params, options) => request('OPTIONS', endpoint, headers, params, null, options),
 
   all: (requests) => Promise.all(requests.map(({method, ...args}) => api[method.toLowerCase()](...args))),
-  series: (requests) => requests.reduce((promise, {method, ...args}) => 
-    promise.then(() => api[method.toLowerCase()](...args)), Promise.resolve()),
+  series: async (requests) => {
+    for (const {method, ...args} of requests) {
+      await api[method.toLowerCase()](...args);
+    }
+  },
 
   retry: retry,
   cache: cache.cacheRequest,
