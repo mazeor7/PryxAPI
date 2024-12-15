@@ -4,10 +4,10 @@ PryxAPI is a powerful and flexible HTTP client for Node.js, designed to simplify
 
   <div align="center">
   <p>
-    <a href="https://github.com/matteotorna/pryxapi/releases/latest">
-  <img src="https://img.shields.io/github/v/release/matteotorna/pryxapi?style=for-the-badge" alt="GitHub release (latest SemVer)" /></a>
-    <a href="https://github.com/matteotorna/pryxapi/releases/latest">
-    <img src="https://img.shields.io/github/release-date/matteotorna/pryxapi?label=latest%20release&style=for-the-badge" alt="Latest release" /></a>
+    <a href="https://github.com/mazeor7/pryxapi/releases/latest">
+  <img src="https://img.shields.io/github/v/release/mazeor7/pryxapi?style=for-the-badge" alt="GitHub release (latest SemVer)" /></a>
+    <a href="https://github.com/mazeor7/pryxapi/releases/latest">
+    <img src="https://img.shields.io/github/release-date/mazeor7/pryxapi?label=latest%20release&style=for-the-badge" alt="Latest release" /></a>
    <a href="https://www.npmjs.com/package/pryxapi"><img src="https://img.shields.io/npm/v/pryxapi.svg?logo=npm&style=for-the-badge" alt="npm version" /></a>
     <a href="https://www.npmjs.com/package/pryxapi"><img src="https://img.shields.io/npm/dt/pryxapi.svg?style=for-the-badge" alt="NPM downloads" /></a>
   </p>
